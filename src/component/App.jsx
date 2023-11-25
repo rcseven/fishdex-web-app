@@ -115,7 +115,7 @@ const App = () => {
       <input type="file" onChange={handleFileChange} />
       <p className="para">or</p>
       <p className="para">Drag and drop an image here</p>
-      <Button onClick={handleApiRequest}>Make API Request</Button>
+      <Button onClick={handleApiRequest}>Know your fish...</Button>
       <Modal
         title="Result"
         open={isModalOpen}
